@@ -1,0 +1,23 @@
+{
+  "debug": true,
+  "autocomplete": true,
+
+  "command": "/usr/local/bin/ctags",
+
+  "tag_file": ".tags",
+
+  "select_searched_symbol": false,
+
+  "opts": [
+    "--languages=ruby",
+    "--exclude='**/stylesheets/*'",
+    "--exclude='**/app/views/*'",
+    "--exclude='**/bin/*'",
+    "--exclude='**/db/*'",
+    "--exclude='**/tmp/*'",
+    "--exclude='**/log/*'",
+    "--exclude='*.js'",
+    "--exclude=.git",
+    "--exclude='**/node_modules/*'"
+  ]
+}

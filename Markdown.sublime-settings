@@ -1,0 +1,7 @@
+{
+  "mde.match_header_hashes": true,
+  "mde.list_indent_bullets": ["-", "+", "*"],
+  "draw_centered": false,
+  // "color_scheme": "Packages/User/Custom MarkdownEditor.tmTheme"
+  "wrap_width": 120
+}

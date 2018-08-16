@@ -1,0 +1,228 @@
+[
+  {
+    "keys": ["super+shift+r"], "command": "side_bar_rename", "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ]
+  },
+  { "keys": ["super+k", "super+c"], "command": "convert_to_pascal" },
+  { "keys": ["super+d"], "command": "side_bar_duplicate", "context":
+     [ {"key": "control", "operand": "sidebar_tree"} ]
+  },
+  {
+    "keys": ["super+shift+m"], "command": "side_bar_move", "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ]
+  },
+  {
+    "keys": ["super+backspace"], "command": "side_bar_delete", "context":
+     [ {"key": "control", "operand": "sidebar_tree"} ]
+  },
+  // { "keys": ["super+v"], "command": "paste_and_indent" },
+  // { "keys": ["super+shift+v"], "command": "paste" },
+	{ "keys": ["ctrl+tab"], "command": "toggle_group" },
+  { "keys": ["ctrl+p"], "command": "insert_snippet", "args": {"name": "Packages/User/rails_params.sublime-snippet"} },
+  {
+    "keys": ["{"], "command": "insert_snippet", "args": {"contents": "{ ${0:$SELECTION} }"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+  {
+    "keys": ["}"], "command": "insert_snippet", "args": {"contents": "{${0:$SELECTION}}"}, "context":
+    [
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+  {
+    "keys": ["{"], "command": "insert_snippet", "args": {"contents": "{$1${1/[^ ].*//}}"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true }
+    ]
+  },
+  {
+    "keys": ["tab"], "command": "insert_snippet", "args": {"contents": " |${1:variable}| $0 "}, "context":
+    [
+      { "key": "preceding_text", "operator": "regex_contains", "operand": "\\{$", "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^\\}", "match_all": true }
+    ]
+  },
+  { "keys": ["alt+up"], "command": "prev_indent" },
+  { "keys": ["alt+shift+up"], "command": "prev_indent", "args": {"extend_selection": true} },
+  { "keys": ["alt+down"], "command": "next_indent" },
+  { "keys": ["alt+shift+down"], "command": "next_indent", "args": {"extend_selection": true} },
+  { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+  // { "keys": ["super+r"], "command": "run_current_buffer" },
+  { "keys": ["super+shift+n"], "command": "advanced_new_file" },
+  { "keys": ["super+ctrl+left"], "command": "set_layout", "args":
+    {
+      "cols": [0.0, 0.33, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  { "keys": ["super+ctrl+right"], "command": "set_layout", "args":
+    {
+      "cols": [0.0, 0.66, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+  { "keys": ["ctrl+f"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+  { "keys": ["super+p"], "command": "toggle_print" },
+  { "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
+  {
+    "keys": ["super+r"],
+    "command": "run_tests",
+    "args": {"scope": "file"}
+  },
+  {
+    "keys": ["super+shift+r"],
+    "command": "run_tests",
+    "args": {"scope": "line"}
+  },
+  {
+    "keys": ["super+alt+ctrl+r"],
+    "command": "run_tests",
+    "args": {"scope": "last"}
+  },
+  {
+    "keys": ["super+alt+r"],
+    "command": "run_current_buffer"
+  },
+  {
+    "command": "jump_back",
+    "keys": ["ctrl+j", "ctrl+b"]
+  },
+  {
+    "command": "jump_forward",
+    "keys": ["ctrl+j", "ctrl+f"]
+  },
+  {
+    "command": "navigate_to_definition",
+    "keys": ["ctrl+j", "ctrl+d"]
+  },
+  {
+    "command": "convert_hash_syntax",
+    "keys": ["ctrl+h"]
+  },
+  {
+    "keys": ["alt+up"],
+    "command": "jump_prev_indent"
+  },
+  {
+    "keys": ["alt+shift+up"],
+    "command": "jump_prev_indent",
+    "args": { "extend_selection": true }
+  },
+  {
+    "keys": ["super+k", "alt+up"],
+    "command": "jump_prev_indent",
+    "args": { "indent_offset": -1 }
+  },
+  {
+    "keys": ["super+k", "alt+shift+up"],
+    "command": "jump_prev_indent",
+    "args": { "extend_selection": true, "indent_offset": -1 }
+  },
+  {
+    "keys": ["super+k", "alt+down"],
+    "command": "jump_next_indent",
+    "args": { "indent_offset": -1 }
+  },
+  {
+    "keys": ["super+k", "alt+shift+down"],
+    "command": "jump_next_indent",
+    "args": { "extend_selection": true, "indent_offset": -1 }
+  },
+  {
+    "keys": ["alt+down"],
+    "command": "jump_next_indent"
+  },
+  {
+    "keys": ["alt+shift+down"],
+    "command": "jump_next_indent",
+    "args": { "extend_selection": true }
+  },
+  { "keys": ["super+ctrl+a"], "command": "alignment" },
+  { "keys": ["super+alt+o"], "command": "noop" },
+  {
+    "keys": ["super+ctrl+tab"],
+    "command": "extended_switcher",
+    "args": { "list_mode": "window" }
+  },
+  {
+    "keys": ["ctrl+e"],
+    "command": "move_to",
+    "args": {
+      "to": "hardeol",
+      "extend": false
+    }
+  },
+  {
+    "keys": ["ctrl+shift+r"],
+    "command": "reindent",
+    "args": { "single_line": false }
+  },
+  {
+    "keys": ["ctrl+j", "ctrl+c"],
+    "command": "jump_to_interactive"
+  },
+  {
+    "keys": ["ctrl+j", "ctrl+e"],
+    "command": "jump_to_interactive",
+    "args": { "extend": true }
+  },
+  {
+    "keys": ["super+alt+'"],
+    "command": "change_quotes"
+  },
+  {
+    "keys": ["ctrl+k", "ctrl+j"],
+    "command": "align_tab",
+    "args": { "user_input": "(?<=:) /l1l1f" }
+  },
+  {
+    "keys": ["ctrl+a"],
+    "command": "move_to",
+    "args": {
+      "to": "hardbol",
+      "extend": false
+    }
+  },
+  {
+    "keys": ["ctrl+shfit+a"],
+    "command": "move_to",
+    "args": {
+      "to": "hardbol",
+      "extend": true
+    }
+  },
+  {
+    "keys": ["super+shift+x"],
+    "command": "expand_selection_to_whitespace"
+  },
+  {
+    "keys": ["super+e"],
+    "command": "slurp_find_string"
+  },
+  {
+    "keys": ["super+shift+p"],
+    "command": "chain",
+    "args": {
+        "commands": [
+            ["show_overlay", { "overlay": "command_palette" }],
+            ["select_all"],
+        ]
+    },
+  },
+  {
+    "keys": ["ctrl+y"],
+    "command": "yank"
+  },
+  {
+    "keys": ["super+ctrl+f"],
+    "command": "search_in_project"
+  }
+]

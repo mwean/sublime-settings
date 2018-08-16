@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ => ]]></content>
+  <tabTrigger>hashrocket</tabTrigger>
+  <description>Hashrocket</description>
+  <!-- <scope>source.ruby</scope> -->
+</snippet>

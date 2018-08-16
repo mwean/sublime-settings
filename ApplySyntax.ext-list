@@ -1,0 +1,37 @@
+{
+	"HTML (Rails)":
+	[
+		"html.erb"
+	],
+	"JSON":
+	[
+		".bowerrc",
+		".csslintrc",
+		".eslintrc",
+		".jscsrc",
+		".jshintrc",
+		"geojson"
+	],
+	"PHP":
+	[
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
+	],
+	"Ruby Slim":
+	[
+		"emblem"
+	],
+	"Shell-Unix-Generic":
+	[
+		"bash",
+		"sh",
+		"zsh"
+	],
+	"YAML":
+	[
+		"YAML-tmLanguage"
+	]
+}

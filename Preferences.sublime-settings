@@ -1,0 +1,142 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.js"
+		},
+		{
+			"characters": "<",
+			"selector": "text.html"
+		}
+	],
+	"auto_complete_with_fields": true,
+	"auto_find_in_selection": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"cassettes/*",
+		"*.xml",
+		"*.beam",
+		"step_orderings.yml"
+	],
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"detect_indentation": false,
+	"detect_slow_plugins": true,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_inactive_panes": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sqlite3",
+		".gitkeep",
+		".tags",
+		".gemtags",
+		".tags_sorted_by_file",
+		".keep",
+		".*tags",
+		"*.bundle.js*",
+		"*.sublime-workspace",
+		"webpack.stats.json",
+		"ods/doc/**/*.html"
+	],
+	"folder_exclude_patterns":
+	[
+		"log",
+		"tmp",
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".zeus.sock",
+		"node_modules",
+		"bower_components",
+		".sass-cache",
+		"public/css",
+		"public/font",
+		"public/img",
+		"public/js",
+		"dist",
+		"deps",
+		"build",
+		"coverage"
+	],
+	"font_face": "Source Code Pro Light",
+	"font_size": 17.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"index_files": false,
+	"keymaps":
+	{
+		"show_pretty_keys": true
+	},
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"open_files_in_new_window": true,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		120
+	],
+	"scroll_past_end": true,
+	"show_definitions": false,
+	"show_full_path": false,
+	"skin": "DA UI/Sodish",
+	"status_bar_brighter": true,
+	"tab_completion": false,
+	"tab_size": 2,
+	"tabs_small": true,
+	"tern_argument_completion": true,
+	"tern_argument_hints": true,
+	"tern_argument_hints_type": "tooltip",
+	"theme": "DA.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?-",
+	"word_wrap": true
+}

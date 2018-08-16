@@ -1,0 +1,4 @@
+<snippet>
+  <content><![CDATA[params[:${1:id}]]]></content>
+  <scope>source.ruby.rails</scope>
+</snippet>
