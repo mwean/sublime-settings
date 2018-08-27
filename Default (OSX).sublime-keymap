@@ -192,14 +192,6 @@
     }
   },
   {
-    "keys": ["ctrl+shfit+a"],
-    "command": "move_to",
-    "args": {
-      "to": "hardbol",
-      "extend": true
-    }
-  },
-  {
     "keys": ["super+shift+x"],
     "command": "expand_selection_to_whitespace"
   },
@@ -208,21 +200,24 @@
     "command": "slurp_find_string"
   },
   {
-    "keys": ["super+shift+p"],
-    "command": "chain",
-    "args": {
-        "commands": [
-            ["show_overlay", { "overlay": "command_palette" }],
-            ["select_all"],
-        ]
-    },
-  },
-  {
     "keys": ["ctrl+y"],
     "command": "yank"
   },
   {
     "keys": ["super+ctrl+f"],
     "command": "search_in_project"
+  },
+  {
+    "no_outside_adj": null,
+    "keys": ["super+'"],
+    "command": "bh_key",
+    "args":
+    {
+      "plugin":
+      {
+        "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote", "backtick_quote"],
+        "command": "bh_modules.bracketselect"
+      }
+    }
   }
 ]
