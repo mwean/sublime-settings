@@ -20,6 +20,15 @@
 		"php5",
 		"phtml"
 	],
+	"Python":
+	[
+		"py3",
+		"pyw"
+	],
+	"Ruby Haml":
+	[
+		"haml"
+	],
 	"Ruby Slim":
 	[
 		"emblem"
