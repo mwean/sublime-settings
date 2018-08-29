@@ -6,8 +6,10 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"AutoFileName",
 		"BinaryPlist",
 		"BracketHighlighter",
+		"DeleteBlankLines",
 		"Elixir",
 		"Jump Along Indent",
 		"LSP",

@@ -1,0 +1,12 @@
+{
+  "user_scope_brackets": [
+    {
+      "name": "single_quote",
+      "language_list": ["Hex"]
+    },
+    {
+      "name": "double_quote",
+      "language_list": ["Hex"]
+    }
+  ]
+}
