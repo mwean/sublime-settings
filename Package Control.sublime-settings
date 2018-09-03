@@ -9,12 +9,14 @@
 		"AutoFileName",
 		"BinaryPlist",
 		"BracketHighlighter",
+		"CTags",
 		"DeleteBlankLines",
 		"Elixir",
 		"Jump Along Indent",
 		"LSP",
 		"Origami",
 		"Package Control",
+		"Plist Binary",
 		"SideBarEnhancements"
 	]
 }
