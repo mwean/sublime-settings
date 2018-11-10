@@ -6,20 +6,29 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"ApacheConf",
 		"AutoFileName",
+		"Better RSpec",
 		"BetterFindBuffer",
 		"BinaryPlist",
 		"BracketHighlighter",
+		"Case Conversion",
+		"Crystal",
 		"CTags",
 		"DeleteBlankLines",
 		"Elixir",
+		"GitGutter",
+		"GitHubinator",
 		"JSON Reindent",
 		"JsonTree",
+		"JSX",
 		"Jump Along Indent",
 		"LSP",
 		"Origami",
 		"Package Control",
 		"Plist Binary",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"TabNine",
+		"WakaTime"
 	]
 }
